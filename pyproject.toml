@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mona-serp-media-check"
+version = "0.1.0"
+description = "Kiem tra mot trang web da san sang len khoi Google Images / Video tren SERP hay chua (alt text, ten file anh, schema ImageObject/VideoObject, transcript video, sitemap anh/video, Open Graph image)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "The MONA Group", email = "opensource@mona.media" }]
+keywords = ["seo", "google-images", "video-seo", "structured-data", "open-graph"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = []
+
+[project.optional-dependencies]
+images = ["Pillow>=10.0"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/themonagroup/mona-serp-media-check"
+
+[project.scripts]
+mona-serp-media-check = "mona_serp_media_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
