@@ -1,5 +1,7 @@
 # mona-serp-media-check
 
+[![test](https://github.com/themonagroup/mona-serp-media-check/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-serp-media-check/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Công cụ dòng lệnh (CLI) kiểm tra xem một trang web đã sẵn sàng để xuất hiện trên khối **Google Images** và **Google Video** của kết quả tìm kiếm hay chưa.
 
 ## Vì sao một trang top Google mà 0 ảnh, 0 video trên SERP là đang bỏ lỡ traffic
