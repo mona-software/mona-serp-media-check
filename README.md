@@ -1,6 +1,6 @@
 # mona-serp-media-check
 
-[![test](https://github.com/themonagroup/mona-serp-media-check/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-serp-media-check/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![test](https://github.com/mona-software/mona-serp-media-check/actions/workflows/test.yml/badge.svg)](https://github.com/mona-software/mona-serp-media-check/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Công cụ dòng lệnh (CLI) kiểm tra xem một trang web đã sẵn sàng để xuất hiện trên khối **Google Images** và **Google Video** của kết quả tìm kiếm hay chưa.
 
@@ -39,7 +39,7 @@ Công cụ phân biệt hai mức: **lỗi** (chặn hẳn khả năng lên kh�
 ## Cài đặt
 
 ```bash
-git clone https://github.com/themonagroup/mona-serp-media-check.git
+git clone https://github.com/mona-software/mona-serp-media-check.git
 cd mona-serp-media-check
 pip install -e .
 
@@ -156,7 +156,7 @@ The tool distinguishes hard **failures** (block SERP media eligibility, non-zero
 ## Install
 
 ```bash
-git clone https://github.com/themonagroup/mona-serp-media-check.git
+git clone https://github.com/mona-software/mona-serp-media-check.git
 cd mona-serp-media-check
 pip install -e .
 pip install -e ".[images]"   # optional: faster image dimension reading via Pillow
@@ -189,4 +189,6 @@ All tests run against local HTML fixtures and never touch the real network.
 MIT — see [LICENSE](LICENSE).
 
 ---
-Từ MONA — https://mona.media · Các repo khác: https://github.com/themonagroup · Hub mã nguồn mở: https://mona.media/mona-open/
+Từ MONA — https://mona.media · Các repo khác: https://github.com/mona-software · Hub mã nguồn mở: https://mona.media/mona-open/
+
+**`mona-serp-media-check` là sản phẩm của MONA Software, thành viên The MONA Group.**

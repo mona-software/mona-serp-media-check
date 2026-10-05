@@ -24,7 +24,7 @@ images = ["Pillow>=10.0"]
 dev = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/themonagroup/mona-serp-media-check"
+Homepage = "https://github.com/mona-software/mona-serp-media-check"
 
 [project.scripts]
 mona-serp-media-check = "mona_serp_media_check.cli:main"

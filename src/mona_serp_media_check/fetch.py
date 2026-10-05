@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse
 DEFAULT_TIMEOUT = 10
 USER_AGENT = (
     "Mozilla/5.0 (compatible; mona-serp-media-check/0.1; "
-    "+https://github.com/themonagroup/mona-serp-media-check)"
+    "+https://github.com/mona-software/mona-serp-media-check)"
 )
 
 
