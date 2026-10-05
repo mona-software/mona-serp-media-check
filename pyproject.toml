@@ -9,7 +9,7 @@ description = "Kiem tra mot trang web da san sang len khoi Google Images / Video
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "The MONA Group", email = "opensource@mona.media" }]
+authors = [{ name = "MONA Software", email = "opensource@mona.media" }]
 keywords = ["seo", "google-images", "video-seo", "structured-data", "open-graph"]
 classifiers = [
     "Programming Language :: Python :: 3",
